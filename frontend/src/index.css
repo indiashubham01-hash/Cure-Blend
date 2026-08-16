@@ -1,62 +1,206 @@
 @import 'tailwindcss';
 
 :root {
-  font-family: 'Inter', 'Segoe UI', sans-serif;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
   line-height: 1.5;
   font-weight: 400;
-  color: #f8fafc;
-  background: #050505;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color-scheme: dark;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
 }
 
 html {
   scroll-behavior: smooth;
-  background: #050505;
+  background-color: #000000;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background:
-    radial-gradient(circle at 50% 4%, rgba(255, 255, 255, 0.07), transparent 20%),
-    radial-gradient(circle at 50% 34%, rgba(255, 255, 255, 0.04), transparent 28%),
-    linear-gradient(180deg, #050505 0%, #070707 28%, #090909 100%);
-  color: #f8fafc;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #000000;
+  background-image: 
+    radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    radial-gradient(ellipse at 50% 0%, rgba(255, 255, 255, 0.06) 0%, transparent 60%);
+  background-size: 24px 24px, 100% 100%;
+  background-attachment: fixed;
+  color: #f4f4f5;
+  -webkit-tap-highlight-color: transparent;
 }
 
-* {
-  box-sizing: border-box;
+/* Shadcn / Vercel Minimalist Dark Panels */
+.shadcn-panel {
+  background: #09090b;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
-button,
-input,
-textarea {
-  font: inherit;
+.shadcn-panel-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.shadcn-panel-hover:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+  background: #0c0c0e;
+  transform: translateY(-1px);
 }
 
-#root {
-  min-height: 100vh;
+.shadcn-card {
+  background: #121215;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-::selection {
-  background: rgba(255, 255, 255, 0.2);
-  color: #ffffff;
+/* Crisp Pill Buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  background-color: #ffffff;
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #000000;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  user-select: none;
+}
+.btn-primary:hover {
+  background-color: #e4e4e7;
+  transform: translateY(-1px);
 }
 
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.04);
+  padding: 0.625rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #f4f4f5;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  user-select: none;
+}
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* 3D Perspective & Depth System */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.perspective-2000 {
+  perspective: 2000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.card-3d {
+  transform-style: preserve-3d;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease, border-color 0.3s ease;
+  box-shadow: 
+    0 15px 35px -10px rgba(0, 0, 0, 0.9),
+    0 0 0 1px rgba(255, 255, 255, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.6);
+}
+
+.card-3d:hover {
+  transform: translateY(-4px) rotateX(2deg) rotateY(-1deg);
+  box-shadow: 
+    0 30px 60px -15px rgba(0, 0, 0, 0.95),
+    0 0 0 1px rgba(255, 255, 255, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.7);
+}
+
+.hero-3d-panel {
+  transform: perspective(1200px) rotateX(8deg) scale(0.99);
+  transform-origin: center top;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.6s ease;
+  box-shadow: 
+    0 40px 100px -20px rgba(0, 0, 0, 0.95),
+    0 0 0 1px rgba(255, 255, 255, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+@media (max-width: 768px) {
+  .hero-3d-panel {
+    transform: none !important;
+  }
+  .card-3d:hover {
+    transform: none !important;
+  }
+}
+
+.hero-3d-panel:hover {
+  transform: perspective(1200px) rotateX(0deg) scale(1);
+  box-shadow: 
+    0 50px 120px -20px rgba(0, 0, 0, 1),
+    0 0 0 1px rgba(255, 255, 255, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+/* 3D Button Depth */
+.btn-3d {
+  position: relative;
+  box-shadow: 0 4px 0 rgba(255, 255, 255, 0.3), 0 8px 20px rgba(0, 0, 0, 0.6);
+  transition: all 0.15s ease;
+}
+.btn-3d:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 rgba(255, 255, 255, 0.35), 0 12px 25px rgba(0, 0, 0, 0.7);
+}
+.btn-3d:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 rgba(255, 255, 255, 0.2), 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom Minimalist Scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #090909;
+  background: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.22);
-  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 9999px;
 }
 
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* Mobile Scroll utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
