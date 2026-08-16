@@ -1,0 +1,26 @@
+# CureBlend Backend Dependencies
+# ================================
+
+# Web Framework & Server
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+
+# ML / NLP
+scikit-learn==1.5.2
+xgboost==2.1.1
+shap==0.46.0
+joblib==1.4.2
+pandas==2.2.3
+numpy==1.26.4
+nltk==3.9.1
+scipy==1.14.1
+
+# Database
+motor==3.6.0
+pymongo==4.9.2
+
+# CORS & Utilities
+python-multipart==0.0.12

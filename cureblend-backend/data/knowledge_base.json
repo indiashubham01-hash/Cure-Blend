@@ -1,0 +1,2046 @@
+{
+  "conditions": {
+    "Common Cold": {
+      "severity_weight": 15,
+      "pharmaceutical": [
+        {
+          "medication": "Acetaminophen (Paracetamol)",
+          "usage": "500–1000 mg every 4–6 hours for fever and body aches. Max 4g/day.",
+          "precautions": "Avoid in liver disease. Do not combine with alcohol.",
+          "contraindicated_conditions": [
+            "liver_disease",
+            "hepatitis"
+          ]
+        },
+        {
+          "medication": "Cetirizine (Antihistamine)",
+          "usage": "10 mg once daily for runny nose and sneezing.",
+          "precautions": "May cause drowsiness. Avoid driving after intake.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Dextromethorphan (Cough Suppressant)",
+          "usage": "10–20 mg every 4 hours as needed for dry cough.",
+          "precautions": "Not for productive cough. Avoid in children under 4.",
+          "contraindicated_conditions": [
+            "asthma"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Ginger & Honey Tea",
+          "usage": "Boil fresh ginger slices in water, add raw honey. Drink 2–3 times daily.",
+          "precautions": "Honey not safe for infants under 1 year.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Steam Inhalation with Eucalyptus Oil",
+          "usage": "Add 3–5 drops of eucalyptus oil to hot water. Inhale steam for 10 minutes.",
+          "precautions": "Keep safe distance from boiling water. Not for asthmatic patients.",
+          "contraindicated_conditions": [
+            "asthma"
+          ]
+        },
+        {
+          "remedy": "Vitamin C Rich Diet",
+          "usage": "Increase intake of citrus fruits, bell peppers, and guava.",
+          "precautions": "Excessive vitamin C may cause stomach upset in sensitive individuals.",
+          "contraindicated_conditions": [
+            "kidney_stones"
+          ]
+        }
+      ]
+    },
+    "Influenza": {
+      "severity_weight": 30,
+      "pharmaceutical": [
+        {
+          "medication": "Oseltamivir (Tamiflu)",
+          "usage": "75 mg twice daily for 5 days. Most effective within 48 hours of symptom onset.",
+          "precautions": "May cause nausea. Take with food.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Ibuprofen",
+          "usage": "200–400 mg every 4–6 hours for fever and muscle pain.",
+          "precautions": "Avoid in peptic ulcer, kidney disease, or aspirin allergy.",
+          "contraindicated_conditions": [
+            "peptic_ulcer",
+            "kidney_disease",
+            "asthma"
+          ]
+        },
+        {
+          "medication": "Pseudoephedrine (Decongestant)",
+          "usage": "60 mg every 4–6 hours for nasal congestion.",
+          "precautions": "Avoid in hypertension. May cause insomnia.",
+          "contraindicated_conditions": [
+            "hypertension",
+            "heart_disease"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Elderberry Extract",
+          "usage": "15 ml syrup twice daily at onset of symptoms for immune support.",
+          "precautions": "Raw elderberries are toxic. Use only commercially prepared extracts.",
+          "contraindicated_conditions": [
+            "autoimmune_disease"
+          ]
+        },
+        {
+          "remedy": "Tulsi (Holy Basil) Tea",
+          "usage": "Steep 8–10 fresh tulsi leaves in boiling water for 5 min. Drink warm.",
+          "precautions": "May lower blood sugar. Monitor if diabetic.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Adequate Rest & Hydration",
+          "usage": "Drink 2–3 liters of warm fluids daily. Rest for minimum 8 hours.",
+          "precautions": "Fluid restriction may apply in heart failure or kidney disease.",
+          "contraindicated_conditions": [
+            "heart_failure",
+            "kidney_disease"
+          ]
+        }
+      ]
+    },
+    "Pneumonia": {
+      "severity_weight": 65,
+      "pharmaceutical": [
+        {
+          "medication": "Amoxicillin",
+          "usage": "500 mg three times daily for 5–7 days (bacterial pneumonia). Prescription required.",
+          "precautions": "Allergy check for penicillin. Complete full course.",
+          "contraindicated_conditions": [
+            "penicillin_allergy"
+          ]
+        },
+        {
+          "medication": "Azithromycin",
+          "usage": "500 mg on day 1, then 250 mg daily for 4 days. Prescription required.",
+          "precautions": "May cause GI upset. Avoid with QT-prolonging drugs.",
+          "contraindicated_conditions": [
+            "heart_arrhythmia"
+          ]
+        },
+        {
+          "medication": "Acetaminophen",
+          "usage": "500–1000 mg every 6 hours for fever management.",
+          "precautions": "Do not exceed 4g/day. Avoid with liver disease.",
+          "contraindicated_conditions": [
+            "liver_disease"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Warm Turmeric Milk (Golden Milk)",
+          "usage": "Mix 1 tsp turmeric with warm milk and a pinch of black pepper. Drink nightly.",
+          "precautions": "May interact with blood thinners. Avoid if gallbladder issues.",
+          "contraindicated_conditions": [
+            "gallbladder_disease",
+            "blood_thinners"
+          ]
+        },
+        {
+          "remedy": "Deep Breathing Exercises",
+          "usage": "Practice pursed-lip and diaphragmatic breathing 3–4 times daily.",
+          "precautions": "Stop if dizziness or chest pain occurs.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Bronchial Asthma": {
+      "severity_weight": 50,
+      "pharmaceutical": [
+        {
+          "medication": "Salbutamol Inhaler (Albuterol)",
+          "usage": "2 puffs as needed for acute wheezing and breathlessness. Max 8 puffs/day.",
+          "precautions": "May cause tremor and palpitations. Rinse mouth after use.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Budesonide Inhaler (ICS)",
+          "usage": "200 mcg twice daily as maintenance therapy. Prescription required.",
+          "precautions": "Rinse mouth after use to prevent oral thrush.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Montelukast",
+          "usage": "10 mg once daily at bedtime for long-term control.",
+          "precautions": "Monitor for mood changes. Prescription required.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Honey with Warm Water",
+          "usage": "1 tablespoon honey in warm water before bedtime to soothe airways.",
+          "precautions": "Not for children under 1 year.",
+          "contraindicated_conditions": [
+            "diabetes"
+          ]
+        },
+        {
+          "remedy": "Breathing Exercises (Buteyko / Pranayama)",
+          "usage": "Practice controlled nasal breathing for 15 minutes daily.",
+          "precautions": "Do not attempt during an acute asthma attack.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "COVID-19": {
+      "severity_weight": 55,
+      "pharmaceutical": [
+        {
+          "medication": "Acetaminophen",
+          "usage": "500–1000 mg every 6 hours for fever and body pain.",
+          "precautions": "Max 4g/day. Avoid alcohol.",
+          "contraindicated_conditions": [
+            "liver_disease"
+          ]
+        },
+        {
+          "medication": "Dexamethasone (if severe)",
+          "usage": "6 mg once daily for up to 10 days. Only under medical supervision for hospitalized patients.",
+          "precautions": "Not for mild cases. May elevate blood sugar.",
+          "contraindicated_conditions": [
+            "diabetes_uncontrolled"
+          ]
+        },
+        {
+          "medication": "Anticoagulant (Low Molecular Weight Heparin)",
+          "usage": "Prophylactic dose as prescribed for hospitalized patients to prevent clotting.",
+          "precautions": "Prescription only. Monitor for bleeding.",
+          "contraindicated_conditions": [
+            "bleeding_disorder"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Steam Inhalation",
+          "usage": "Inhale plain steam for 10 minutes twice daily for congestion relief.",
+          "precautions": "Avoid adding irritant oils. Keep safe distance from water.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Kadha (Traditional Herbal Decoction)",
+          "usage": "Boil tulsi, cinnamon, black pepper, dry ginger, and turmeric. Drink once daily.",
+          "precautions": "Avoid excess intake. May cause acidity.",
+          "contraindicated_conditions": [
+            "gerd",
+            "peptic_ulcer"
+          ]
+        },
+        {
+          "remedy": "Prone Position Rest",
+          "usage": "Lie face down for 30 minutes several times daily to improve oxygenation.",
+          "precautions": "Stop if uncomfortable. Not suitable during meals.",
+          "contraindicated_conditions": [
+            "pregnancy"
+          ]
+        }
+      ]
+    },
+    "Tuberculosis": {
+      "severity_weight": 70,
+      "pharmaceutical": [
+        {
+          "medication": "Isoniazid + Rifampicin + Pyrazinamide + Ethambutol (DOTS regimen)",
+          "usage": "Standard 6-month DOTS therapy under medical supervision. Prescription mandatory.",
+          "precautions": "Hepatotoxic. Regular liver function tests required. Complete full course.",
+          "contraindicated_conditions": [
+            "liver_disease"
+          ]
+        },
+        {
+          "medication": "Pyridoxine (Vitamin B6)",
+          "usage": "25 mg daily to prevent isoniazid-induced neuropathy.",
+          "precautions": "Take alongside TB medications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "High-Protein Diet",
+          "usage": "Increase intake of eggs, lentils, lean meat, and dairy to support immune recovery.",
+          "precautions": "Monitor protein intake in kidney disease.",
+          "contraindicated_conditions": [
+            "kidney_disease"
+          ]
+        },
+        {
+          "remedy": "Garlic",
+          "usage": "2 raw garlic cloves daily for antimicrobial properties.",
+          "precautions": "May interact with blood thinners. Avoid on empty stomach if gastritis.",
+          "contraindicated_conditions": [
+            "blood_thinners",
+            "gastritis"
+          ]
+        }
+      ]
+    },
+    "Dengue Fever": {
+      "severity_weight": 60,
+      "pharmaceutical": [
+        {
+          "medication": "Acetaminophen",
+          "usage": "500–1000 mg every 6 hours for fever. ONLY paracetamol.",
+          "precautions": "STRICTLY AVOID aspirin and ibuprofen — increases bleeding risk.",
+          "contraindicated_conditions": [
+            "liver_disease"
+          ]
+        },
+        {
+          "medication": "Oral Rehydration Salts (ORS)",
+          "usage": "1 liter ORS solution sipped throughout the day to prevent dehydration.",
+          "precautions": "Monitor urine output. Seek hospital care if unable to drink.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Papaya Leaf Extract",
+          "usage": "Extract juice from fresh papaya leaves. 10 ml twice daily to boost platelets.",
+          "precautions": "Consult doctor before use. Not a substitute for medical monitoring.",
+          "contraindicated_conditions": [
+            "pregnancy"
+          ]
+        },
+        {
+          "remedy": "Coconut Water & Fluid Intake",
+          "usage": "Drink 2–3 glasses of coconut water plus 3 liters of fluids daily.",
+          "precautions": "Monitor in diabetics due to natural sugars.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Malaria": {
+      "severity_weight": 60,
+      "pharmaceutical": [
+        {
+          "medication": "Chloroquine Phosphate",
+          "usage": "600 mg base initially, then 300 mg at 6, 24, and 48 hours. For P. vivax.",
+          "precautions": "Not effective against chloroquine-resistant P. falciparum. ECG monitoring.",
+          "contraindicated_conditions": [
+            "retinal_disease",
+            "heart_arrhythmia"
+          ]
+        },
+        {
+          "medication": "Artemisinin-based Combination Therapy (ACT)",
+          "usage": "As prescribed for P. falciparum malaria. 3-day course.",
+          "precautions": "Prescription only. Complete full course.",
+          "contraindicated_conditions": [
+            "pregnancy_first_trimester"
+          ]
+        },
+        {
+          "medication": "Acetaminophen",
+          "usage": "For fever control. 500–1000 mg every 6 hours.",
+          "precautions": "Avoid NSAIDs. Max 4g/day.",
+          "contraindicated_conditions": [
+            "liver_disease"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Neem Leaf Decoction",
+          "usage": "Boil neem leaves, cool, and drink 50 ml twice daily.",
+          "precautions": "Bitter taste. May lower blood sugar.",
+          "contraindicated_conditions": [
+            "diabetes",
+            "pregnancy"
+          ]
+        },
+        {
+          "remedy": "High Fluid Intake",
+          "usage": "Minimum 3 liters water, ORS, and juices daily.",
+          "precautions": "Restrict in renal failure.",
+          "contraindicated_conditions": [
+            "kidney_disease"
+          ]
+        }
+      ]
+    },
+    "Typhoid Fever": {
+      "severity_weight": 55,
+      "pharmaceutical": [
+        {
+          "medication": "Ciprofloxacin",
+          "usage": "500 mg twice daily for 7–14 days. Prescription required.",
+          "precautions": "Avoid in children and pregnant women. May cause tendon damage.",
+          "contraindicated_conditions": [
+            "pregnancy",
+            "tendon_disorder"
+          ]
+        },
+        {
+          "medication": "Azithromycin",
+          "usage": "500 mg once daily for 7 days as an alternative.",
+          "precautions": "Take on empty stomach. GI upset possible.",
+          "contraindicated_conditions": [
+            "heart_arrhythmia"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Apple Cider Vinegar Compress",
+          "usage": "Mix 1 part ACV with 2 parts water. Apply damp cloth on forehead for fever.",
+          "precautions": "Do not ingest undiluted. May irritate skin.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Banana & Buttermilk Diet",
+          "usage": "Soft bland diet of ripe bananas and fresh buttermilk to recover gut health.",
+          "precautions": "Avoid spicy and oily foods during recovery.",
+          "contraindicated_conditions": [
+            "lactose_intolerance"
+          ]
+        }
+      ]
+    },
+    "Gastroenteritis": {
+      "severity_weight": 25,
+      "pharmaceutical": [
+        {
+          "medication": "Oral Rehydration Salts (ORS)",
+          "usage": "200 ml after every loose stool. Critical for preventing dehydration.",
+          "precautions": "Seek medical help if unable to retain fluids.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Loperamide (Imodium)",
+          "usage": "4 mg initially, then 2 mg after each loose stool. Max 16 mg/day.",
+          "precautions": "Do NOT use if bloody diarrhea or fever >38.5°C. Avoid in children under 2.",
+          "contraindicated_conditions": [
+            "inflammatory_bowel_disease"
+          ]
+        },
+        {
+          "medication": "Ondansetron (Zofran)",
+          "usage": "4 mg sublingual or oral for nausea/vomiting.",
+          "precautions": "Prescription may be required. May cause headache.",
+          "contraindicated_conditions": [
+            "heart_arrhythmia"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Ginger Tea",
+          "usage": "Grate fresh ginger, steep in hot water for 5 min. Sip slowly for nausea.",
+          "precautions": "Avoid excess in acid reflux.",
+          "contraindicated_conditions": [
+            "gerd"
+          ]
+        },
+        {
+          "remedy": "BRAT Diet (Banana, Rice, Applesauce, Toast)",
+          "usage": "Follow for 24–48 hours during acute diarrhea to rest the gut.",
+          "precautions": "Not nutritionally complete. Resume normal diet as tolerated.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "GERD": {
+      "severity_weight": 25,
+      "pharmaceutical": [
+        {
+          "medication": "Omeprazole (PPI)",
+          "usage": "20 mg once daily before breakfast for 4–8 weeks.",
+          "precautions": "Long-term use linked to B12 deficiency and bone loss. Taper off.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Antacids (Aluminum/Magnesium Hydroxide)",
+          "usage": "10–20 ml after meals and at bedtime for quick relief.",
+          "precautions": "May cause constipation or diarrhea depending on formulation.",
+          "contraindicated_conditions": [
+            "kidney_disease"
+          ]
+        },
+        {
+          "medication": "Domperidone",
+          "usage": "10 mg three times daily before meals to improve gastric motility.",
+          "precautions": "Avoid in cardiac patients. Prescription required.",
+          "contraindicated_conditions": [
+            "heart_disease",
+            "heart_arrhythmia"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Aloe Vera Juice",
+          "usage": "30 ml of pure aloe vera juice before meals to soothe esophageal lining.",
+          "precautions": "Avoid varieties with aloin (laxative effect). Check for purity.",
+          "contraindicated_conditions": [
+            "pregnancy"
+          ]
+        },
+        {
+          "remedy": "Lifestyle: Elevate Head of Bed",
+          "usage": "Raise the head of your bed by 6–8 inches. Avoid eating 3 hours before sleep.",
+          "precautions": "Avoid tight clothing around abdomen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Fennel Seed Water",
+          "usage": "Soak 1 tsp fennel seeds in water overnight. Drink in morning.",
+          "precautions": "May cause allergic reaction in sensitive individuals.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Peptic Ulcer Disease": {
+      "severity_weight": 40,
+      "pharmaceutical": [
+        {
+          "medication": "Pantoprazole (PPI)",
+          "usage": "40 mg once daily before breakfast for 4–8 weeks.",
+          "precautions": "Complete course. Avoid NSAIDs concurrently.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Amoxicillin + Clarithromycin (Triple Therapy for H. pylori)",
+          "usage": "As prescribed by gastroenterologist for H. pylori eradication.",
+          "precautions": "Complete full 14-day course. GI upset common.",
+          "contraindicated_conditions": [
+            "penicillin_allergy"
+          ]
+        },
+        {
+          "medication": "Sucralfate",
+          "usage": "1g four times daily on empty stomach to coat ulcer.",
+          "precautions": "Take 1 hour before meals. May interfere with other drug absorption.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Cabbage Juice",
+          "usage": "Blend fresh cabbage and drink 100 ml twice daily. Contains glutamine for healing.",
+          "precautions": "May cause bloating initially. Avoid if thyroid disorder.",
+          "contraindicated_conditions": [
+            "thyroid_disorder"
+          ]
+        },
+        {
+          "remedy": "Licorice Root (DGL)",
+          "usage": "Chew 1–2 DGL tablets before meals to protect stomach lining.",
+          "precautions": "Avoid whole licorice — may raise blood pressure. Use DGL form only.",
+          "contraindicated_conditions": [
+            "hypertension"
+          ]
+        }
+      ]
+    },
+    "Appendicitis": {
+      "severity_weight": 85,
+      "pharmaceutical": [
+        {
+          "medication": "Surgical Intervention (Appendectomy)",
+          "usage": "Emergency surgical removal of appendix is the definitive treatment.",
+          "precautions": "Do NOT attempt self-medication. This is a surgical emergency.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "IV Antibiotics (Pre-operative)",
+          "usage": "Cefuroxime + Metronidazole administered in hospital setting.",
+          "precautions": "Hospital administration only. Allergy check required.",
+          "contraindicated_conditions": [
+            "penicillin_allergy"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "No Herbal Remedy — Seek Immediate Medical Attention",
+          "usage": "Do NOT attempt home remedies. Go to emergency room immediately.",
+          "precautions": "Do NOT apply heat packs, take laxatives, or eat/drink before surgery.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Hypertension": {
+      "severity_weight": 45,
+      "pharmaceutical": [
+        {
+          "medication": "Amlodipine (Calcium Channel Blocker)",
+          "usage": "5–10 mg once daily. Prescription required.",
+          "precautions": "May cause ankle edema. Monitor BP regularly.",
+          "contraindicated_conditions": [
+            "heart_failure_severe"
+          ]
+        },
+        {
+          "medication": "Telmisartan (ARB)",
+          "usage": "40–80 mg once daily. Prescription required.",
+          "precautions": "Avoid in pregnancy. Monitor potassium levels.",
+          "contraindicated_conditions": [
+            "pregnancy",
+            "kidney_disease_severe"
+          ]
+        },
+        {
+          "medication": "Hydrochlorothiazide (Diuretic)",
+          "usage": "12.5–25 mg once daily as add-on therapy.",
+          "precautions": "May cause electrolyte imbalance. Monitor potassium.",
+          "contraindicated_conditions": [
+            "gout",
+            "kidney_disease"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "DASH Diet (Dietary Approaches to Stop Hypertension)",
+          "usage": "Increase fruits, vegetables, whole grains. Limit sodium to <2300 mg/day.",
+          "precautions": "Sudden dietary changes may cause GI discomfort initially.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Hibiscus Tea",
+          "usage": "Steep dried hibiscus flowers for 5 min. Drink 2–3 cups daily.",
+          "precautions": "May lower BP too much if on medications. Monitor.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Regular Aerobic Exercise",
+          "usage": "30 minutes of brisk walking or cycling 5 days/week.",
+          "precautions": "Start gradually. Avoid heavy lifting (Valsalva maneuver).",
+          "contraindicated_conditions": [
+            "heart_disease_uncontrolled"
+          ]
+        }
+      ]
+    },
+    "Diabetes Type 2": {
+      "severity_weight": 45,
+      "pharmaceutical": [
+        {
+          "medication": "Metformin",
+          "usage": "500 mg twice daily with meals, titrated to 2000 mg/day. Prescription required.",
+          "precautions": "GI upset common initially. Avoid in kidney impairment. Monitor HbA1c.",
+          "contraindicated_conditions": [
+            "kidney_disease",
+            "liver_disease"
+          ]
+        },
+        {
+          "medication": "Glimepiride (Sulfonylurea)",
+          "usage": "1–4 mg once daily before breakfast. Prescription required.",
+          "precautions": "Risk of hypoglycemia. Carry glucose tablets.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Fenugreek Seeds (Methi)",
+          "usage": "Soak 1 tbsp fenugreek seeds overnight in water. Drink water and chew seeds in morning.",
+          "precautions": "May lower blood sugar — monitor levels. Avoid in pregnancy.",
+          "contraindicated_conditions": [
+            "pregnancy"
+          ]
+        },
+        {
+          "remedy": "Cinnamon (Ceylon)",
+          "usage": "Add 1/2 tsp Ceylon cinnamon to warm water or food daily.",
+          "precautions": "Use Ceylon variety only. Cassia cinnamon has coumarin toxicity risk.",
+          "contraindicated_conditions": [
+            "liver_disease"
+          ]
+        },
+        {
+          "remedy": "Low Glycemic Index Diet",
+          "usage": "Prioritize whole grains, legumes, non-starchy vegetables. Limit refined sugars.",
+          "precautions": "Work with a nutritionist for personalized planning.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Anemia": {
+      "severity_weight": 35,
+      "pharmaceutical": [
+        {
+          "medication": "Ferrous Sulfate (Iron Supplement)",
+          "usage": "325 mg (65 mg elemental iron) once daily on empty stomach with vitamin C.",
+          "precautions": "Causes black stools and constipation. Take 2 hours apart from antacids.",
+          "contraindicated_conditions": [
+            "hemochromatosis",
+            "thalassemia"
+          ]
+        },
+        {
+          "medication": "Folic Acid",
+          "usage": "5 mg once daily for folate deficiency anemia.",
+          "precautions": "Must rule out B12 deficiency before starting.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Vitamin B12 (Cyanocobalamin)",
+          "usage": "1000 mcg daily for B12 deficiency anemia.",
+          "precautions": "Injections may be needed if malabsorption present.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Beetroot & Pomegranate Juice",
+          "usage": "Blend fresh beetroot and pomegranate. Drink 200 ml daily.",
+          "precautions": "May change urine color (harmless). High in sugar for diabetics.",
+          "contraindicated_conditions": [
+            "diabetes"
+          ]
+        },
+        {
+          "remedy": "Iron-Rich Diet",
+          "usage": "Include spinach, lentils, red meat, liver, and jaggery in daily meals.",
+          "precautions": "Avoid tea/coffee with meals — inhibits iron absorption.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Migraine": {
+      "severity_weight": 35,
+      "pharmaceutical": [
+        {
+          "medication": "Sumatriptan (Triptan)",
+          "usage": "50–100 mg at onset of migraine. May repeat after 2 hours. Max 200 mg/day.",
+          "precautions": "Avoid in cardiovascular disease. Not for hemiplegic migraine.",
+          "contraindicated_conditions": [
+            "heart_disease",
+            "hypertension_uncontrolled"
+          ]
+        },
+        {
+          "medication": "Ibuprofen",
+          "usage": "400–600 mg at onset for mild-moderate migraine.",
+          "precautions": "Take with food. Avoid in peptic ulcer.",
+          "contraindicated_conditions": [
+            "peptic_ulcer",
+            "kidney_disease"
+          ]
+        },
+        {
+          "medication": "Propranolol (Preventive)",
+          "usage": "40–80 mg twice daily as prophylactic for frequent migraines. Prescription required.",
+          "precautions": "Do not stop suddenly. Avoid in asthma and diabetes.",
+          "contraindicated_conditions": [
+            "asthma",
+            "diabetes",
+            "heart_block"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Peppermint Oil (Topical)",
+          "usage": "Apply diluted peppermint oil to temples and forehead during attack.",
+          "precautions": "Avoid contact with eyes. Dilute with carrier oil.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Magnesium Supplementation",
+          "usage": "400 mg magnesium glycinate daily for migraine prevention.",
+          "precautions": "May cause loose stools. Avoid in kidney disease.",
+          "contraindicated_conditions": [
+            "kidney_disease"
+          ]
+        },
+        {
+          "remedy": "Regular Sleep Schedule",
+          "usage": "Maintain consistent sleep/wake times. Aim for 7–8 hours nightly.",
+          "precautions": "Avoid oversleeping on weekends — may trigger migraine.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Allergic Rhinitis": {
+      "severity_weight": 15,
+      "pharmaceutical": [
+        {
+          "medication": "Loratadine (Claritin)",
+          "usage": "10 mg once daily. Non-drowsy antihistamine.",
+          "precautions": "Minimal side effects. Safe for most adults.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Fluticasone Nasal Spray",
+          "usage": "2 sprays per nostril once daily for nasal congestion and inflammation.",
+          "precautions": "May cause nosebleed. Avoid inserting too deep.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Montelukast",
+          "usage": "10 mg once daily at bedtime.",
+          "precautions": "Monitor mood changes. Prescription required.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Saline Nasal Irrigation (Neti Pot)",
+          "usage": "Use distilled/boiled saline water in neti pot once daily to clear allergens.",
+          "precautions": "Use only sterile water. Clean device after each use.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Local Honey",
+          "usage": "1 tablespoon of raw local honey daily for gradual desensitization.",
+          "precautions": "Not clinically proven for all. Avoid if bee allergy.",
+          "contraindicated_conditions": [
+            "diabetes",
+            "bee_allergy"
+          ]
+        }
+      ]
+    },
+    "Urinary Tract Infection": {
+      "severity_weight": 30,
+      "pharmaceutical": [
+        {
+          "medication": "Nitrofurantoin",
+          "usage": "100 mg twice daily for 5 days for uncomplicated UTI. Prescription required.",
+          "precautions": "Take with food. Avoid in kidney impairment (GFR <30).",
+          "contraindicated_conditions": [
+            "kidney_disease"
+          ]
+        },
+        {
+          "medication": "Trimethoprim-Sulfamethoxazole (Bactrim)",
+          "usage": "DS tablet twice daily for 3 days. Prescription required.",
+          "precautions": "Allergy check (sulfa allergy). Maintain hydration.",
+          "contraindicated_conditions": [
+            "sulfa_allergy",
+            "pregnancy"
+          ]
+        },
+        {
+          "medication": "Phenazopyridine (Urinary Analgesic)",
+          "usage": "200 mg three times daily for 2 days max for burning relief.",
+          "precautions": "Turns urine orange. Short-term use only.",
+          "contraindicated_conditions": [
+            "kidney_disease",
+            "liver_disease"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Cranberry Extract",
+          "usage": "500 mg cranberry extract capsule twice daily or unsweetened cranberry juice.",
+          "precautions": "May interact with blood thinners (warfarin).",
+          "contraindicated_conditions": [
+            "blood_thinners",
+            "kidney_stones"
+          ]
+        },
+        {
+          "remedy": "Increased Water Intake",
+          "usage": "Drink minimum 3 liters of water daily to flush bacteria.",
+          "precautions": "Fluid restriction may apply in heart failure.",
+          "contraindicated_conditions": [
+            "heart_failure"
+          ]
+        }
+      ]
+    },
+    "Kidney Stones": {
+      "severity_weight": 50,
+      "pharmaceutical": [
+        {
+          "medication": "Diclofenac (NSAID)",
+          "usage": "50 mg intramuscular injection or 50 mg oral twice daily for renal colic pain.",
+          "precautions": "Avoid in kidney disease. Short course only.",
+          "contraindicated_conditions": [
+            "kidney_disease",
+            "peptic_ulcer"
+          ]
+        },
+        {
+          "medication": "Tamsulosin (Alpha Blocker)",
+          "usage": "0.4 mg once daily to facilitate stone passage (medical expulsive therapy).",
+          "precautions": "May cause dizziness and low blood pressure on standing.",
+          "contraindicated_conditions": [
+            "hypotension"
+          ]
+        },
+        {
+          "medication": "Potassium Citrate",
+          "usage": "As prescribed for calcium oxalate stone prevention.",
+          "precautions": "Monitor potassium levels regularly.",
+          "contraindicated_conditions": [
+            "kidney_disease_severe",
+            "hyperkalemia"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Lemon Water",
+          "usage": "Squeeze half a lemon into 500 ml water. Drink 2–3 times daily. Citrate inhibits stones.",
+          "precautions": "May erode tooth enamel. Rinse mouth after.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Barley Water",
+          "usage": "Boil 1 cup barley in 3 cups water. Strain and drink throughout the day.",
+          "precautions": "Contains gluten. Avoid in celiac disease.",
+          "contraindicated_conditions": [
+            "celiac_disease"
+          ]
+        }
+      ]
+    },
+    "Hepatitis": {
+      "severity_weight": 55,
+      "pharmaceutical": [
+        {
+          "medication": "Entecavir (for Hepatitis B)",
+          "usage": "0.5 mg once daily on empty stomach. Long-term antiviral therapy. Prescription required.",
+          "precautions": "Do not stop abruptly — may cause hepatitis flare.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Sofosbuvir + Ledipasvir (for Hepatitis C)",
+          "usage": "1 tablet once daily for 12 weeks. Prescription required.",
+          "precautions": "Drug interaction check required (especially amiodarone).",
+          "contraindicated_conditions": [
+            "heart_arrhythmia"
+          ]
+        },
+        {
+          "medication": "Ursodeoxycholic Acid (UDCA)",
+          "usage": "300 mg twice daily for supportive liver therapy.",
+          "precautions": "Complete course. Monitor liver function.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Milk Thistle (Silymarin)",
+          "usage": "150 mg silymarin three times daily for hepatoprotective support.",
+          "precautions": "May cause GI upset. Consult doctor before use with medications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Complete Alcohol Abstinence",
+          "usage": "Absolute avoidance of alcohol in any form during and after treatment.",
+          "precautions": "Even small amounts can cause liver damage progression.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Arthritis": {
+      "severity_weight": 35,
+      "pharmaceutical": [
+        {
+          "medication": "Naproxen (NSAID)",
+          "usage": "250–500 mg twice daily with food for joint pain and inflammation.",
+          "precautions": "Avoid in peptic ulcer and kidney disease. Use lowest effective dose.",
+          "contraindicated_conditions": [
+            "peptic_ulcer",
+            "kidney_disease",
+            "heart_failure"
+          ]
+        },
+        {
+          "medication": "Methotrexate (for Rheumatoid Arthritis)",
+          "usage": "7.5–25 mg once weekly. Prescription and monitoring required.",
+          "precautions": "Hepatotoxic. Requires regular blood tests. Avoid in pregnancy.",
+          "contraindicated_conditions": [
+            "pregnancy",
+            "liver_disease",
+            "kidney_disease"
+          ]
+        },
+        {
+          "medication": "Acetaminophen",
+          "usage": "500–1000 mg every 6 hours for mild pain as first-line in osteoarthritis.",
+          "precautions": "Max 4g/day. Avoid in liver disease.",
+          "contraindicated_conditions": [
+            "liver_disease"
+          ]
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Turmeric (Curcumin) Supplement",
+          "usage": "500 mg curcumin with piperine twice daily for anti-inflammatory effect.",
+          "precautions": "May interact with blood thinners. Avoid before surgery.",
+          "contraindicated_conditions": [
+            "blood_thinners",
+            "gallbladder_disease"
+          ]
+        },
+        {
+          "remedy": "Warm Epsom Salt Bath",
+          "usage": "Add 2 cups Epsom salt to warm bath. Soak for 15–20 minutes.",
+          "precautions": "Avoid if skin is broken or infected.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Omega-3 Fatty Acids",
+          "usage": "Fish oil supplement 1000 mg daily or increase fatty fish intake.",
+          "precautions": "May increase bleeding risk with blood thinners.",
+          "contraindicated_conditions": [
+            "blood_thinners",
+            "fish_allergy"
+          ]
+        }
+      ]
+    },
+    "Eczema": {
+      "severity_weight": 20,
+      "pharmaceutical": [
+        {
+          "medication": "Hydrocortisone Cream (1%)",
+          "usage": "Apply thin layer to affected area twice daily for 7–14 days.",
+          "precautions": "Do not use on face or groin for prolonged periods. May thin skin.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Cetirizine (Antihistamine)",
+          "usage": "10 mg once daily for itch relief.",
+          "precautions": "May cause drowsiness.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Emollients / Moisturizers",
+          "usage": "Apply fragrance-free moisturizer liberally 2–3 times daily, especially after bathing.",
+          "precautions": "Avoid products with alcohol or fragrances.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Coconut Oil (Cold Pressed)",
+          "usage": "Apply virgin coconut oil to affected areas 2–3 times daily as natural moisturizer.",
+          "precautions": "Patch test first. May not suit all skin types.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Oatmeal Bath (Colloidal Oatmeal)",
+          "usage": "Add finely ground oatmeal to lukewarm bath. Soak for 15 minutes.",
+          "precautions": "Use lukewarm, not hot water. Pat dry gently.",
+          "contraindicated_conditions": [
+            "gluten_allergy"
+          ]
+        },
+        {
+          "remedy": "Aloe Vera Gel",
+          "usage": "Apply pure aloe vera gel to inflamed skin 2–3 times daily.",
+          "precautions": "Use pure formulation. Avoid if allergic to Liliaceae family plants.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Conjunctivitis": {
+      "severity_weight": 15,
+      "pharmaceutical": [
+        {
+          "medication": "Antibiotic eye drops (e.g., Erythromycin, Moxifloxacin)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Use prescribed eye drops. Avoid touching/rubbing eyes. Wash hands frequently. Don’t share towels",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Antiviral drops (e.g., Ganciclovir for herpes)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Lubricant drops",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Vitamin A-rich foods (carrots, spinach)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Zinc-rich foods (pumpkin seeds)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Avoid water sports",
+          "usage": "Avoid water sports: Prevent further irritation",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Gentle indoor walking",
+          "usage": "Gentle indoor walking: Prevent eye strain",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "COPD": {
+      "severity_weight": 55,
+      "pharmaceutical": [
+        {
+          "medication": "Bronchodilators (e.g., Salbutamol)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Inhaled corticosteroids",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Phosphodiesterase-4 inhibitors (e.g., Roflumilast)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Pursed-lip breathing",
+          "usage": "Pursed-lip breathing: Improve oxygen use",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Walking",
+          "usage": "Walking: Build endurance safely",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Depression": {
+      "severity_weight": 40,
+      "pharmaceutical": [
+        {
+          "medication": "SSRIs (e.g., Sertraline, Escitalopram)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Maintain social connection. Follow treatment plan. Get regular exercise. Avoid alcohol and drugs",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "SNRIs (e.g., Venlafaxine)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Atypical antidepressants (e.g., Bupropion)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Omega-3 fatty acids (salmon, walnuts)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Vitamin D-rich foods (egg yolk, fortified cereals)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Aerobic exercise",
+          "usage": "Aerobic exercise: Boosts mood via endorphins",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Yoga",
+          "usage": "Yoga: Mind-body balance",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Anxiety": {
+      "severity_weight": 35,
+      "pharmaceutical": [
+        {
+          "medication": "SSRIs (e.g., Escitalopram)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Practice deep breathing. Avoid caffeine. Follow therapy plan. Seek support from loved ones",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "SNRIs (e.g., Duloxetine)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Benzodiazepines (short-term use)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "SSRIs (e.g., Sertraline, Fluoxetine)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Benzodiazepines (e.g., Clonazepam, Alprazolam)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "SNRIs (e.g., Venlafaxine)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Magnesium-rich foods (nuts, seeds)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Omega-3 fatty acids (salmon, chia seeds)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Yoga",
+          "usage": "Yoga: Combines movement and mindfulness",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Breathing exercises",
+          "usage": "Breathing exercises: Control physiological symptoms",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Deep breathing exercises",
+          "usage": "Deep breathing exercises: Calm your mind by focusing on slow, deep breaths",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Yoga",
+          "usage": "Yoga: Combines breathing and movement for relaxation",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Heart Attack": {
+      "severity_weight": 90,
+      "pharmaceutical": [
+        {
+          "medication": "Aspirin",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Take prescribed medication. Avoid stress. Eat heart-healthy diet. Monitor cholesterol and BP",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Nitroglycerin",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Beta-blockers (e.g., Metoprolol)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Cardiac rehabilitation",
+          "usage": "Cardiac rehabilitation: Doctor-supervised program",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Walking",
+          "usage": "Walking: Most recommended early-stage workout",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Heart Failure": {
+      "severity_weight": 85,
+      "pharmaceutical": [
+        {
+          "medication": "ACE inhibitors",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Monitor fluid intake. Follow low-sodium diet. Take prescribed meds. Track weight daily",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Beta-blockers",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Loop diuretics (e.g., Furosemide)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Supervised cardiac rehab",
+          "usage": "Supervised cardiac rehab: Custom-designed programs",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Walking",
+          "usage": "Walking: Slow and monitored",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Gout": {
+      "severity_weight": 40,
+      "pharmaceutical": [
+        {
+          "medication": "Colchicine",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Avoid purine-rich food. Stay hydrated. Limit alcohol intake. Take medication as prescribed",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "NSAIDs (e.g., Indomethacin)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Allopurinol",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Low-purine foods (vegetables, whole grains)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Cherries and berries",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Low-impact exercises",
+          "usage": "Low-impact exercises: Like cycling or swimming",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Joint mobility drills",
+          "usage": "Joint mobility drills: Keep joints flexible",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Strep Throat": {
+      "severity_weight": 25,
+      "pharmaceutical": [
+        {
+          "medication": "Penicillin",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Complete full antibiotic course. Avoid sharing utensils. Get adequate rest. Drink warm fluids",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Amoxicillin",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Azithromycin (if allergic to penicillin)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Rest",
+          "usage": "Rest: Until infection clears",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Avoid cardio",
+          "usage": "Avoid cardio: While febrile or sore throat",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Chicken Pox": {
+      "severity_weight": 20,
+      "pharmaceutical": [
+        {
+          "medication": "Consult Healthcare Provider",
+          "usage": "Professional evaluation required for proper treatment.",
+          "precautions": "Do not self-medicate.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "General Wellness",
+          "usage": "Stay hydrated, rest well, and maintain balanced nutrition.",
+          "precautions": "Seek medical attention if symptoms persist.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Psoriasis": {
+      "severity_weight": 25,
+      "pharmaceutical": [
+        {
+          "medication": "Topical corticosteroids",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Keep skin moisturized. Avoid triggers like stress. Use prescribed creams. Avoid scratching",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Vitamin D analogs (e.g., Calcipotriol)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Methotrexate",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Anti-inflammatory foods (turmeric, ginger, berries)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Omega-3 fatty acids (salmon, walnuts)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Swimming in saltwater",
+          "usage": "Swimming in saltwater: May soothe skin",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Moderate aerobic activity",
+          "usage": "Moderate aerobic activity: Supports immune system",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Hemorrhoids": {
+      "severity_weight": 20,
+      "pharmaceutical": [
+        {
+          "medication": "Topical hydrocortisone cream",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Eat fiber-rich foods. Avoid prolonged sitting. Stay hydrated. Use sitz baths",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Witch hazel pads",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Stool softeners (e.g., Docusate)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "High-fiber foods (whole grains, fruits, vegetables)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Hydration",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Walking",
+          "usage": "Walking: Reduces pressure on rectal veins",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Kegel exercises",
+          "usage": "Kegel exercises: Improve blood flow",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Acute Sinusitis": {
+      "severity_weight": 20,
+      "pharmaceutical": [
+        {
+          "medication": "Saline nasal spray",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Use nasal saline spray. Stay hydrated. Avoid allergens. Use warm compresses",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Decongestants (e.g., Pseudoephedrine)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Nasal corticosteroids",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Nasal breathing exercises",
+          "usage": "Nasal breathing exercises: Help open airways",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Gentle yoga",
+          "usage": "Gentle yoga: Promotes drainage",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Acute Bronchitis": {
+      "severity_weight": 25,
+      "pharmaceutical": [
+        {
+          "medication": "Cough suppressants (e.g., Dextromethorphan)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Avoid smoking. Drink warm fluids. Use cough suppressants if needed. Rest and recover",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Expectorants (e.g., Guaifenesin)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Bronchodilators (if wheezing)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Breathing exercises",
+          "usage": "Breathing exercises: Aid recovery",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Rest",
+          "usage": "Rest: Essential during coughing phase",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Sepsis": {
+      "severity_weight": 90,
+      "pharmaceutical": [
+        {
+          "medication": "IV broad-spectrum antibiotics (e.g., Piperacillin-tazobactam)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Seek urgent medical care. Follow antibiotic regimen. Monitor temperature & vitals. Maintain good hygiene",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "IV fluids",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Vasopressors (e.g., Norepinephrine)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "High-protein foods (eggs, lean meat)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Hydration",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Rest and rehabilitation",
+          "usage": "Rest and rehabilitation: After acute phase",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Gentle walking",
+          "usage": "Gentle walking: Gradual rebuilding",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Gallstone": {
+      "severity_weight": 45,
+      "pharmaceutical": [
+        {
+          "medication": "Ursodeoxycholic acid (in some cases)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Avoid high-fat foods. Maintain a healthy weight. Eat regular meals. Follow up for surgical evaluation if needed",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Pain relievers (e.g., NSAIDs)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Cholecystectomy (surgical removal)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Low-fat diet (steamed vegetables, lean meats)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "High-fiber foods (whole grains, apples)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Avoid high-fat pre-workout meals",
+          "usage": "Avoid high-fat pre-workout meals",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Walking",
+          "usage": "Walking: Encourages digestion",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Diverticulitis": {
+      "severity_weight": 40,
+      "pharmaceutical": [
+        {
+          "medication": "Antibiotics (e.g., Ciprofloxacin + Metronidazole)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Eat low-fiber during flare-ups. Stay hydrated. Take antibiotics if prescribed. Avoid seeds/nuts if advised",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Clear liquid diet (during flare)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Pain relievers",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Low-fiber diet during flare-up (white bread, white rice)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Hydration",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Rest",
+          "usage": "Rest: During acute phase",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Walking",
+          "usage": "Walking: Light and easy on digestion",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Fungal Infection": {
+      "severity_weight": 15,
+      "pharmaceutical": [
+        {
+          "medication": "Consult Healthcare Provider",
+          "usage": "Professional evaluation required for proper treatment.",
+          "precautions": "Do not self-medicate.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "General Wellness",
+          "usage": "Stay hydrated, rest well, and maintain balanced nutrition.",
+          "precautions": "Seek medical attention if symptoms persist.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Jaundice": {
+      "severity_weight": 50,
+      "pharmaceutical": [
+        {
+          "medication": "Consult Healthcare Provider",
+          "usage": "Professional evaluation required for proper treatment.",
+          "precautions": "Do not self-medicate.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "General Wellness",
+          "usage": "Stay hydrated, rest well, and maintain balanced nutrition.",
+          "precautions": "Seek medical attention if symptoms persist.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Hyperthyroidism": {
+      "severity_weight": 35,
+      "pharmaceutical": [
+        {
+          "medication": "Consult Healthcare Provider",
+          "usage": "Professional evaluation required for proper treatment.",
+          "precautions": "Do not self-medicate.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "General Wellness",
+          "usage": "Stay hydrated, rest well, and maintain balanced nutrition.",
+          "precautions": "Seek medical attention if symptoms persist.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Hypothyroidism": {
+      "severity_weight": 30,
+      "pharmaceutical": [
+        {
+          "medication": "Consult Healthcare Provider",
+          "usage": "Professional evaluation required for proper treatment.",
+          "precautions": "Do not self-medicate.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "General Wellness",
+          "usage": "Stay hydrated, rest well, and maintain balanced nutrition.",
+          "precautions": "Seek medical attention if symptoms persist.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Acne": {
+      "severity_weight": 10,
+      "pharmaceutical": [
+        {
+          "medication": "Consult Healthcare Provider",
+          "usage": "Professional evaluation required for proper treatment.",
+          "precautions": "Do not self-medicate.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "General Wellness",
+          "usage": "Stay hydrated, rest well, and maintain balanced nutrition.",
+          "precautions": "Seek medical attention if symptoms persist.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Drug Reaction": {
+      "severity_weight": 50,
+      "pharmaceutical": [
+        {
+          "medication": "Discontinuation of offending drug",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Stop the drug immediately. Consult a doctor. Use antihistamines if prescribed. Monitor for worsening symptoms",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Antihistamines (e.g., Diphenhydramine)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Corticosteroids",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Rest",
+          "usage": "Rest: While recovering from adverse reactions",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Low-intensity movement",
+          "usage": "Low-intensity movement: Once stabilized",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Allergy": {
+      "severity_weight": 25,
+      "pharmaceutical": [
+        {
+          "medication": "Antihistamines (e.g., Loratadine)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Apply calamine. Cover area with bandage. Use ice to compress itching. Avoid known allergens",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Decongestants (e.g., Pseudoephedrine)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Epinephrine auto-injectors",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Elimination diet (avoid allergen foods)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Omega-3 fatty acids (salmon, flaxseeds)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Indoor workouts",
+          "usage": "Indoor workouts: Avoid pollen and triggers",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Yoga",
+          "usage": "Yoga: Calms body and immune system",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Varicose Veins": {
+      "severity_weight": 20,
+      "pharmaceutical": [
+        {
+          "medication": "Consult Healthcare Provider",
+          "usage": "Professional evaluation required for proper treatment.",
+          "precautions": "Do not self-medicate.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "General Wellness",
+          "usage": "Stay hydrated, rest well, and maintain balanced nutrition.",
+          "precautions": "Seek medical attention if symptoms persist.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "AIDS/HIV": {
+      "severity_weight": 80,
+      "pharmaceutical": [
+        {
+          "medication": "Consult Healthcare Provider",
+          "usage": "Professional evaluation required for proper treatment.",
+          "precautions": "Do not self-medicate.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "General Wellness",
+          "usage": "Stay hydrated, rest well, and maintain balanced nutrition.",
+          "precautions": "Seek medical attention if symptoms persist.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Cervical Spondylosis": {
+      "severity_weight": 30,
+      "pharmaceutical": [
+        {
+          "medication": "Consult Healthcare Provider",
+          "usage": "Professional evaluation required for proper treatment.",
+          "precautions": "Do not self-medicate.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "General Wellness",
+          "usage": "Stay hydrated, rest well, and maintain balanced nutrition.",
+          "precautions": "Seek medical attention if symptoms persist.",
+          "contraindicated_conditions": []
+        }
+      ]
+    },
+    "Hypoglycemia": {
+      "severity_weight": 45,
+      "pharmaceutical": [
+        {
+          "medication": "Glucose tablets",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Eat small frequent meals. Carry glucose tablets. Avoid skipping meals. Monitor blood sugar levels",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Juice or sugary snacks",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        },
+        {
+          "medication": "Glucagon injection (emergency)",
+          "usage": "As prescribed by healthcare provider. Follow dosage instructions.",
+          "precautions": "Consult your doctor before use. Read contraindications.",
+          "contraindicated_conditions": []
+        }
+      ],
+      "herbal": [
+        {
+          "remedy": "Complex carbohydrates (whole grains, legumes)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Protein with every meal (eggs, nuts)",
+          "usage": "Incorporate into daily diet as a supportive measure.",
+          "precautions": "Consult a nutritionist for personalized dietary advice.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Walking",
+          "usage": "Walking: Helps stabilize blood sugar",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        },
+        {
+          "remedy": "Strength training",
+          "usage": "Strength training: Builds muscle mass to support glucose use",
+          "precautions": "Start gradually. Stop if symptoms worsen.",
+          "contraindicated_conditions": []
+        }
+      ]
+    }
+  }
+}
