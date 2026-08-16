@@ -38,11 +38,16 @@ APP_VERSION: str = "1.0.0"
 APP_DESCRIPTION: str = "AI-Driven Healthcare Recommendation System"
 DEBUG: bool = os.getenv("DEBUG", "false").lower() == "true"
 
-# ── CORS Origins (comma-separated in env) ─────────────────────
-CORS_ORIGINS: list[str] = os.getenv(
+# ── CORS Origins (supports comma-separated list or wildcard) ───
+raw_cors = os.getenv(
     "CORS_ORIGINS",
-    "http://localhost:3000,http://localhost:5173,http://localhost:8080,http://127.0.0.1:5500"
-).split(",")
+    "http://localhost:5173,http://localhost:3000,http://127.0.0.1:5173,http://127.0.0.1:3000,http://localhost:8080"
+)
+if raw_cors.strip() == "*":
+    CORS_ORIGINS: list[str] = ["*"]
+else:
+    CORS_ORIGINS: list[str] = [origin.strip() for origin in raw_cors.split(",") if origin.strip()]
+
 
 # ── Top-K predictions to return ───────────────────────────────
 TOP_K_PREDICTIONS: int = int(os.getenv("TOP_K_PREDICTIONS", "5"))

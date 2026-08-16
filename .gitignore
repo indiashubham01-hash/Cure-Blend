@@ -26,3 +26,9 @@ train_output.log
 .vscode/
 .idea/
 .DS_Store
+
+node_modules/
+frontend/node_modules/
+
+node_modules/
+frontend/node_modules/

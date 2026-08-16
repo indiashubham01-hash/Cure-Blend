@@ -1,0 +1,19 @@
+{
+  "name": "cureblend-workspace",
+  "version": "1.0.0",
+  "description": "CureBlend - AI-Powered Symptom Checker & Personalized Healthcare Assistant",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"blue,green\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd cureblend-backend && python -m uvicorn app.main:app --reload --port 8000",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start:backend": "cd cureblend-backend && uvicorn app.main:app --host 0.0.0.0 --port 8000",
+    "test:backend": "cd cureblend-backend && python verify_all.py",
+    "test:accuracy": "cd cureblend-backend && python test_accuracy.py",
+    "train": "cd cureblend-backend && python train.py"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
