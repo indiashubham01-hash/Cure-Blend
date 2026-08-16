@@ -1,0 +1,45 @@
+export const defaultSymptomOptions = [
+  'fever',
+  'cough',
+  'fatigue',
+  'headache',
+  'sore throat',
+  'body aches',
+  'shortness of breath',
+  'chest pain',
+  'nausea',
+  'dizziness',
+  'runny nose',
+  'loss of appetite',
+  'wheezing',
+  'sneezing',
+  'joint pain',
+  'sleep disturbance',
+  'stress',
+  'anxiety',
+  'smoker',
+  'alcohol',
+  'sedentary',
+  'poor diet',
+];
+
+export const commonLifestyleFactors = [
+  'smoking',
+  'alcohol',
+  'sedentary',
+  'no exercise',
+  'poor diet',
+  'stress',
+  'sleep deprivation',
+];
+
+export const commonConditions = [
+  'diabetes',
+  'hypertension',
+  'asthma',
+  'thyroid disorder',
+  'arthritis',
+  'heart disease',
+  'anxiety',
+  'depression',
+];
