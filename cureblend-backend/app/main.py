@@ -101,6 +101,21 @@ app.add_middleware(
 )
 
 
+# ── Root Welcome Endpoint ──
+@app.get("/", summary="Root Health & Documentation Gateway")
+def root_endpoint():
+    """Welcome gateway with links to interactive docs and health check."""
+    return {
+        "status": "online",
+        "message": f"Welcome to {APP_NAME} v{APP_VERSION}",
+        "docs": "/docs",
+        "health": "/api/v1/health",
+        "assess": "POST /api/v1/assess",
+        "history": "GET /api/v1/history"
+    }
+
+
+
 # ══════════════════════════════════════════════════════════════
 #  UTILITY: Compute Lifestyle Risk Score
 # ══════════════════════════════════════════════════════════════

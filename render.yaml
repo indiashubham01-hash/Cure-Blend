@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: cureblend-backend
+    runtime: python
+    rootDir: cureblend-backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: PORT
+        value: 10000
+      - key: DEBUG
+        value: false
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: MONGODB_URL
+        value: mongodb://localhost:27017
+      - key: MONGODB_DB_NAME
+        value: cureblend
